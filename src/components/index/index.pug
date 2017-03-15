@@ -1,0 +1,19 @@
+doctype html
+html(lang="ch")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (foo) bar(1 + 5)
+    style(type='text/css').
+      .col {
+        color: #bb0909;
+      }
+  body
+    h1 Pug 是 node 服务端的模板引擎
+    #container.col
+      if youAreUsingPug
+        p 使用 pug 使你的开发更有效！
+      else
+        p Get on it!
+      p.
+        Pug 是简洁精炼的服务端模板引擎，同时具有强大的功能。
