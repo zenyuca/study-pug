@@ -1,0 +1,22 @@
+{
+  "name": "study-pug",
+  "version": "1.0.0",
+  "description": "学习pug的示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pug",
+    "js",
+    "node"
+  ],
+  "author": "zenyuca",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  }
+}
